@@ -1,0 +1,35 @@
+/* Basic */
+
+	body #wrapper {
+		background-image: url("../../images/waves.jpg");
+		background-repeat: no-repeat;
+		background-size: cover;
+		background-position: bottom center;
+		background-attachment: fixed;
+	}
+
+		body #wrapper:after {
+			display: none;
+		}
+
+/* Wrapper */
+
+	#wrapper {
+		text-align: center;
+	}
+
+/* Main */
+
+	#main {
+		display: inline-block;
+	}
+
+	/* List */
+
+	ul.icons li a:before {
+		color: #c8cccf;
+	}
+
+	ul.icons li a:hover:before {
+		color: #ff7496;
+	}

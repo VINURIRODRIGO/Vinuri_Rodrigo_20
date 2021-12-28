@@ -1,0 +1,64 @@
+<component name="InspectionProjectProfileManager">
+  <profile version="1.0">
+    <option name="myName" value="Project Default" />
+    <inspection_tool class="LossyEncoding" enabled="false" level="WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyGlobalUndefinedInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+    <inspection_tool class="PyPep8Inspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="E712" />
+          <option value="E722" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyPep8NamingInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredErrors">
+        <list>
+          <option value="N803" />
+          <option value="N806" />
+          <option value="N801" />
+          <option value="N802" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyShadowingBuiltinsInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+      <option name="ignoredNames">
+        <list>
+          <option value="help" />
+        </list>
+      </option>
+    </inspection_tool>
+    <inspection_tool class="PyUnresolvedReferencesInspection" enabled="true" level="WARNING" enabled_by_default="true">
+      <option name="ignoredIdentifiers">
+        <list>
+          <option value="int.delete" />
+          <option value="str.get" />
+          <option value="int.get" />
+          <option value="str.delete" />
+          <option value="str.insert" />
+          <option value="str.config" />
+          <option value="str.destroy" />
+          <option value="password_data_entry_field.PasswordData.*" />
+          <option value="str.clear_entries" />
+          <option value="str.user_password_entry" />
+          <option value="str.conform_password_entry" />
+          <option value="str.email_address_entry" />
+          <option value="str.crate_new_account" />
+          <option value="str.F_name_entry" />
+          <option value="str.L_name_entry" />
+          <option value="tuple.pack" />
+          <option value="str.grid" />
+          <option value="str.after" />
+          <option value="str.configure" />
+          <option value="str.bind" />
+          <option value="str.focus" />
+          <option value="str.item" />
+          <option value="flask_sqlalchemy.SQLAlchemy.Column" />
+          <option value="flask_sqlalchemy.SQLAlchemy.Integer" />
+          <option value="flask_sqlalchemy.SQLAlchemy.String" />
+          <option value="flask_sqlalchemy.SQLAlchemy.Float" />
+        </list>
+      </option>
+    </inspection_tool>
+  </profile>
+</component>
